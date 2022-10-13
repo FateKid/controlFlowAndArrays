@@ -7,30 +7,37 @@ for (countDown = 10; countDown >= 1; countDown--) {
     console.log(countDown + "...");
 }
 
+console.log("Your PC was successfully destroyed.")
+
 ////////////////////////////////// - [ Remainder operators % ]
 
+/*
 console.log(12 % 4) //3
 console.log(1024 % 2) //512
+*/
 
 ///////////////////////////////////// - [ Arrays Information ]
 
-let favoriteShows = ["Schitt's Creek","Rick And Morty","The Good Place"]
-console.log(favoriteShows)
+let favShows = ["Schitt's Creek","Rick And Morty","The Good Place"]
+console.log(favShows);
 
-let firstshow = favoriteShows[0];
-console.log(firstshow) //display first show in array
+let firstshow = favShows[0];
+console.log(firstshow); //display first show in array
 
-favoriteShows.push("Solar Opposites") //added new show to beginning of the array
-console.log(favoriteShows)
+favShows.push("Solar Opposites") //added new show to beginning of the array
+console.log(favShows);
 
-favoriteShows.pop() //removed the added show item from the end of the array
-console.log(favoriteShows)
+favShows.pop() //removed the added show item from the end of the array
+console.log(favShows);
 
-favoriteShows.shift() //removed the first item from array
-console.log(favoriteShows)
+favShows.shift() //removed the first item from array
+console.log(favShows);
 
-favoriteShows.unshift("Solar Opposites") //added to the beginning of the array
-console.log(favoriteShows)
+favShows.unshift("Solar Opposites") //added to the beginning of the array
+console.log(favShows);
+
+
+favShows.forEach((shows, index, favShows) => console.log('Show: ${shows}, Index: ${index}, Array: ${favShows}'));
 
 ///////////////////////////////////// - [ Loops Information ]
 
