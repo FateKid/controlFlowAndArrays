@@ -40,3 +40,22 @@ for (i = 1; i < 10; i += 2) {
     console.log(i);
 }
 
+////
+
+const multiArray = [];
+
+for (i = 2; i < 20; i++) {
+    multiArray.push(i*3)
+}
+console.log(multiArray);
+
+////
+
+let output = [];
+
+for (i = 1; i<=7; i++) {
+    output.push('#');
+    console.log(output.join());
+}
+
+/////////////////////////////////////////////////////////////
