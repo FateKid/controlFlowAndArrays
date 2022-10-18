@@ -1,4 +1,4 @@
-<h1>controlFlowAndArrays Practice Work</h1>
+<h1>This Repo Contains My Practice Content</h1>
 
 This project contains some simple verification methods, grading examples, and more.<br>
 You may view the exercises folders below:
